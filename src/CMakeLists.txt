@@ -1,0 +1,24 @@
+add_executable(
+  idioms
+  main.c
+  pch.h
+  res_cache.c
+  res_cache.h
+  types.h
+  timestep.h
+  timestep.c
+  random.h
+  random.c
+  module/render.c
+  module/render.h
+  module/input.c
+  module/input.h
+  module/context.c
+  module/context.h
+  module/ui.h
+  module/ui.c
+  module/map.h
+  module/map.c
+  module/debug.c
+  module/debug.h
+)
